@@ -24,7 +24,7 @@ function resetGame() {
   placeFood();
   draw();
 
-  timer = setInterval(update, 120);
+  timer = setInterval(update, 180);
 }
 
 function placeFood() {
